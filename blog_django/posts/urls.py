@@ -7,6 +7,6 @@ urlpatterns = [
     path('delete/',views.post_delete),
     path('update/',views.post_update),
     path('', views.post_list),
-    path('delete/',views.post_delete),
+    path('details/',views.post_details),
 
 ]
